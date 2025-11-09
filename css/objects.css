@@ -42,3 +42,37 @@
 	width: 90%;
 	background-color: white;
 }
+
+.input {
+	color: black;
+	border-radius: 8px;
+	border: 1px solid white;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.input::placeholder {
+	color: silver;
+}
+
+.btn-submit {
+	transition: all 0.2s ease-in;
+	color: white;
+	background-color: rgb(128, 160, 214);
+	border: 0px solid white;
+	border-radius: 8px;
+}
+.btn-submit:hover {
+	transition: all 0.2s ease-out;
+	background-color: white;
+	color: rgb(128, 160, 214);
+	cursor: pointer;
+}
+
+.btn-clear {
+	
+}
+
+.btn-remove {
+	
+}
