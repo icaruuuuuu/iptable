@@ -62,28 +62,32 @@
 	background-color: rgb(128, 160, 214);
 	border: 0px solid white;
 	border-radius: 8px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
 }
 .btn-submit:hover {
 	transition: all 0.2s ease-out;
 	background-color: white;
 	color: rgb(128, 160, 214);
 	cursor: pointer;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
 }
 
 .btn-clear {
 	transition: all 0.2s ease-in;
-	color: rgb(21, 21, 23);
-	background-color: white;
+	background-color: rgb(21, 21, 23);
+	color: white;
 	border: 0px solid white;
 	border-radius: 8px;
 	width: 50%;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
 }
 
 .btn-clear:hover {
 	transition: all 0.2s ease-in;
-	background-color: gray;
-	color: white;
+	color: rgb(21, 21, 23);
+	background-color: white;
 	cursor: pointer;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
 }
 
 .btn-remove {
@@ -93,12 +97,14 @@
 	border: 0px solid white;
 	border-radius: 8px;
 	width: 50%;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
 }
 
 
 .btn-remove:hover {
 	transition: all 0.2s ease-in;
-	background-color: silver;
+	background-color: white;
 	color: rgb(255, 63, 61);
 	cursor: pointer;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
 }

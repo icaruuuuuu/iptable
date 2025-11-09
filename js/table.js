@@ -37,7 +37,7 @@ class Table {
 			html += `<div class="column-1 invert">${this.items[i].org}</div>`
 			html += `<div class="column-1 invert">${this.items[i].country}</div>`
 			html += `<div class="column-1 invert">${this.items[i].city}</div>`
-			html += `<div class="column-1"><button class="btn-remove" value="${i}">X</button></div>`
+			html += `<div class="column-1"><button class="btn-remove" data-index="${i}">X</button></div>`
 			html += `</div>\n`
 		}
 		html += `<div class="table-t row"></div>`
