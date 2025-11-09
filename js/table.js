@@ -3,13 +3,8 @@ class Table {
 		this.items = [];
 	}
 
-	add(value) {
-		this.items.push({
-			ip: value,
-			org: "teste",
-			country: "teste",
-			city: "teste"
-		});
+	add(item) {
+		this.items.push(item);
 	}
 
 	remove(index) {
