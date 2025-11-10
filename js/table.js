@@ -12,7 +12,7 @@ class Table {
 	}
 
 	clear() {
-		this.items.splice(0,this.items.length);
+		this.items = [];
 	}
 
 	html() {
